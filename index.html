@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="El blog de DuoBug - Información de tecnología, programación, entre otras cosas">
-    <meta name="author" content="DuoBug">
+    <meta property="og:title" content="El blog de DuoBug" />
+    <meta property="og:author" content="DuoBug" />
+    <meta property="og:description" content="Información de tecnología, programación, entre otras cosas" />
+    <meta property="og:image" content="#" />
     <title>DuoBug Blog</title>
     <link rel="shortcut icon" href="images\logo-duobug-mini.png" type="favicon/ico" />
     <!-- Bootstrap -->
@@ -24,7 +26,7 @@
     <section id="header">
         <nav class="container-fluid navbar-default navbar-fixed-top" role="navigation" id="nav1">
           <div class="navbar-header">
-            <a class="navbar-brand" href="index.html" id="brand">DuoBug</a>
+            <a class="navbar-brand" href="https://duobug.com.ve" id="brand">DuoBug</a>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -33,8 +35,8 @@
           </div>
           <div class="collapse navbar-collapse navbar-menubuilder">
             <ul class="nav navbar-nav navbar-right" >
-              <li><a href="index.html#about"><i class="fa fa-user-circle" aria-hidden="true"></i> Nosotros</a></li>
-              <li><a href="index.html#contact"><i class="fa fa-envelope" aria-hidden="true"></i> Contáctanos</a></li>
+              <li><a href="https://duobug.com.ve/index.html#about"><i class="fa fa-user-circle" aria-hidden="true"></i> Nosotros</a></li>
+              <li><a href="https://duobug.com.ve/index.html#contact"><i class="fa fa-envelope" aria-hidden="true"></i> Contáctanos</a></li>
             </ul>
           </div>
         </nav>
@@ -101,15 +103,12 @@
 
               <div class="share">
                 <h4>Compártelo en las Redes Sociales</h4>
-                <!-- AddToAny BEGIN -->
-                <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-                  <a class="a2a_button_facebook"></a>
-                  <a class="a2a_button_twitter"></a>
-                  <a class="a2a_button_google_plus"></a>
-                  <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-                </div><!--add to any-->
-                <script async src="https://static.addtoany.com/menu/page.js"></script>
-                <!-- AddToAny END -->
+                <ul class="list-inline">
+                  <li><a target="_blank" id="tweet" class="fa fa-twitter-square"></a></li>
+                  <li><a target="_blank" id="fb" class="fa fa-facebook-square"></a></li>
+                  <li><a target="_blank" id="google" class="fa fa-google-plus-square"></a></li>
+                  <li><a target="_blank" id="linked" class="fa fa-linkedin-square"></a></li>
+                </ul>
               </div><!--share-->
 
             <div ="old">
