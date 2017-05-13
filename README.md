@@ -1,3 +1,4 @@
-# duoblog
-DuoBug Blog
+![DuoBug Logo](https://github.com/duoBugVE/duobugve.github.io/blob/master/images/logo-duobug.png)
+# DuoBlog
+## DuoBug Blog
 Un proyecto para nuestro blog donde trataremos temas de tecnología, programación, tal vez cine/videojuegos. 
